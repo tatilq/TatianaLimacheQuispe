@@ -7,12 +7,33 @@ function initPage()
 	$(window).on('scroll', function(){
 		if ( $(window).scrollTop() > altura ){
 			$('#navi').addClass('scroll-nav');
+
+			$('.nav').addClass(' animated pulse infinite');
 		} else {
 			$('#navi').removeClass('scroll-nav');
+			$('.nav').removeClass(' animated pulse infinite');
+			
 		}
 	});
  
-	
+	$('[data-toggle="phone"]').tooltip({
+        title:"927-196-255",
+        animation: true}
+	);
+
+	$('[data-toggle="mail"]').tooltip({
+        title:"tati34che@gmail.com",
+        animation: true}
+	);
+	$('[data-toggle="link"]').tooltip({
+        title:"visitame",
+        animation: true}
+	);
+
+	$('[data-toggle="git"]').tooltip({
+        title:"visitame",
+        animation: true}
+	);
 
 slider();
 

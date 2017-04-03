@@ -2,7 +2,7 @@
 *
 {
   font-family: "Quicksand", sans-serif;
-  
+  /*outline: 1px solid black;*/
 }
 
 #titu-home
@@ -104,9 +104,9 @@ canvas {
   right: 0;
   bottom: 0;
   content: " ";
-
+  color:white;
   text-align: left;
-  font-size: 40px;
+  font-size: 30px;
   mix-blend-mode: color-burn;
   background: rgba(0,0,0,0.6);
 }
@@ -134,6 +134,7 @@ canvas {
 .hero-banner:after {
   background-image: url("../img/bg/punto.png");
   height: 100%;
+  width: 100%;
 }
 
 .vertical-slider {
@@ -210,7 +211,7 @@ canvas {
 /***/
 #skill
 {
-  background: rgb(73,147,165);
+    background: url("../img/tile2.png");
 }
 #titu-skill
 {
@@ -225,14 +226,42 @@ canvas {
   width: 100%;
   padding:40px 0px 50px 0px;
   font-size: 18px;
-  background: url("../img/tile2.png");
-
+  background:rgb(73,147,165);
 }
 #titu-contact
 {
   font-size: 40px;
   font-family:  'Quando', serif;
-  color:rgb(73,147,165);
+  color: white;
+}
+#logo-contact
+{
+  width: 150px;
+  height: 150px;
+  margin:0 auto;
+}
+.icon-container
+{
+  margin:0 auto;
+}
+.icon-container .fa
+{
+  font-size: 60px;
+  color: white;
+  padding: 0px 20px 
+}
+.fa:hover
+{
+  color: black;
+}
+.slide
+{
+  height: 100%;
+  color: white;
+  font-size: bold;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 /*************PARTE DEL FOOTER**/
 footer
