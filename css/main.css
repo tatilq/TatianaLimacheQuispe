@@ -1,0 +1,243 @@
+
+*
+{
+  font-family: "Quicksand", sans-serif;
+  
+}
+
+#titu-home
+{
+  font-size: 60px;
+  font-family:  'Quando', serif;
+  color: white; 
+}
+
+
+/*****************PARTE DEL HEADER*********************/
+
+.scroll-nav
+{
+  background: rgba(0,0,0,0.8);
+  border-bottom: 1px solid rgb(73,147,165);
+}
+header .nav li :hover 
+{
+  background: rgb(73,147,165);
+  color: white;
+  font-weight: bold; 
+}
+
+header .nav li a:after 
+{
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  content: "";
+  opacity: 0;
+  transition: opacity 0.4s ease 0s, transform 0.4s ease 0s;
+  transform: translateY(20px); 
+}
+
+header .nav li a:hover:after 
+{
+  opacity: 1;
+  transform: translateY(15px); 
+}
+
+.nav li a 
+{
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  font-size: 13px; 
+}
+
+#btn_menu 
+{
+  background: transparent;
+  border: 1px solid white; 
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: " ";
+  z-index: 10;
+  height: 100%;
+  width: 100%;
+}
+
+.content-wrap {
+  height: 100%;
+  width: 100%;
+}
+
+#hero {
+  background: url("../img/bg/sec-2.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-width: 100%;
+  height: 630px;
+  width: 100%;
+  display: block;
+  background-attachment: fixed;
+  position: relative;
+  z-index: -1;
+  overflow-x: hidden;
+}
+.hero-banner {
+  height: 100%;
+  color: #fff;
+}
+
+.hero-banner > a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: " ";
+
+  text-align: left;
+  font-size: 40px;
+  mix-blend-mode: color-burn;
+  background: rgba(0,0,0,0.6);
+}
+
+.hero-banner > h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: " ";
+  z-index: 1;
+  margin-top: 200px;
+}
+
+.hero-banner:after, .hero-banner:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: " ";
+}
+
+.hero-banner:after {
+  background-image: url("../img/bg/punto.png");
+  height: 100%;
+}
+
+.vertical-slider {
+  height: 100%;
+  color: #fff;
+  font-size: 30px;
+  margin-top: 400px;
+}
+.vertical-slider span
+{
+  color:  rgb(73,147,165);
+  font-family:  'Quando', serif;
+}
+
+/****************************PARTE DEL ABOUT ME*********************/
+#about
+{
+  color:  white;
+ background: rgb(73,147,165);
+  width: 100%;
+  padding:40px 0px 50px 0px;
+  font-size: 18px;
+}
+
+#titu-about
+{
+  font-size: 40px;
+  font-family:  'Quando', serif;
+  color: white; 
+}
+
+#divisor {
+    border: 0;
+    margin-top: -1px;
+    border-top: 5px solid white;
+    width: 10%;
+}
+#foto
+{
+  filter: brightness(60%);
+ /*box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.6);*/
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+   
+}
+.descripction
+{
+  margin: 50px 0px;
+  line-height: 2.0;
+}
+
+/***********************PARTE DE PROYECTOS*****************/
+#project
+{
+  width: 100%;
+  padding:40px 0px 50px 0px;
+  font-size: 18px;
+  background: url("../img/tile2.png");
+  /*filter: brightness(50%);*/
+
+}
+#titu-project
+{
+  font-size: 40px;
+  font-family:  'Quando', serif;
+  color:  rgb(73,147,165);
+}
+#divisor2 {
+    border: 0;
+    margin-top: -1px;
+    border-top: 5px solid rgb(73,147,165);
+    width: 10%;
+}
+/***/
+#skill
+{
+  background: rgb(73,147,165);
+}
+#titu-skill
+{
+  font-size: 40px;
+  font-family:  'Quando', serif;
+  color: white; 
+}
+
+/***********************PARTE DE CONTACTO*****************/
+#contacto
+{
+  width: 100%;
+  padding:40px 0px 50px 0px;
+  font-size: 18px;
+  background: url("../img/tile2.png");
+
+}
+#titu-contact
+{
+  font-size: 40px;
+  font-family:  'Quando', serif;
+  color:rgb(73,147,165);
+}
+/*************PARTE DEL FOOTER**/
+footer
+{
+  background: rgba(0,0,0,0.9);
+  padding: 20px 0px;
+  color: white;
+}
