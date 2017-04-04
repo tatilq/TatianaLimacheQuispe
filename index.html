@@ -14,8 +14,11 @@
  <link href="https://fonts.googleapis.com/css?family=Alegreya|Aref+Ruqaa|Bree+Serif|Quicksand" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Gabriela" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Quando" rel="stylesheet">
+  <script type="text/javascript" src="js/modernizr.custom.53451.js"></script>
 </head>
-<body>
+<body class="preload">
+<div class="loading">
+    </div>
 <header>
   <nav role="navigation " class="navbar-fixed-top" id="navi">
       <div class="container-fluid " >
@@ -71,7 +74,7 @@
   <div class="container-fluid degradado">
     <div class="row ">
       <h2 class="text-center wow fadeInRight" id="titu-about">Sobre Mí</h2>
-      <hr id="divisor" class="text-center">
+      <hr id="divisor" class="text-center  wow fadeInLeft">
       <br>
        <div class="col-md-6 col-sm-12 col-xs-12 text-center animated zoomInDown ">
         <p class="descripction wow zoomIn">Soy coder de Laboratoria y  estudiante de Ingeniería de Sistemas.
@@ -89,12 +92,12 @@
     <section id="skill" class="text-center">
         <div class="container-fluid">
             <h2 class="text-center wow fadeInRight" id="titu-skill">Habilidades</h2>
-            <hr id="divisor" class="text-center">
+            <hr id="divisor" class="text-center  wow fadeInLeft">
             <br>
            <br>
            <div class="row">
               <div class="col-md-3 col-sm-12 col-xs-12">
-                  <div class="skill-cont "> 
+                  <div class="skill-cont  wow fadeInLeft"> 
                     <div class="icon-cont">
                       <i class="fa fa-file-code-o animated pulse infinite" aria-hidden="true"></i>
                     </div>
@@ -104,33 +107,33 @@
                   </div>
               </div>
               <div class="col-md-3 col-sm-12 col-xs-12">
-                  <div class="skill-cont"> 
+                  <div class="skill-cont  wow fadeInLeft"> 
                     <div class="icon-cont">
                         <i class="fa fa-users animated pulse infinite" aria-hidden="true"></i>
                     </div>
                     <h3 >Trabajo en Equipo</h3>
                     <hr id="divisor2" class="text-center">
-                    <p>Se trabajar bajo presion y me encanta hacerlo en equipo</p>
+                    <p>Se trabajar bajo presión y me encanta hacerlo en equipo</p>
                   </div>
               </div>
               <div class="col-md-3 col-sm-12 col-xs-12">
-                  <div class="skill-cont "> 
+                  <div class="skill-cont  wow fadeInRight"> 
                     <div class="icon-cont">
                         <i class="fa fa-newspaper-o animated pulse infinite" aria-hidden="true"></i>
                     </div>
                     <h3>Base de Datos</h3>
                     <hr id="divisor2" class="text-center">
-                    <p>Sistema gestor de base de datos Mysql/Sql/PostgreSql</p>
+                    <p>Manejo sistemas gestores de base de datos como Mysql/Sql/PostgreSql</p>
                   </div>
               </div>
               <div class="col-md-3 col-sm-12 col-xs-12">
-                  <div class="skill-cont"> 
+                  <div class="skill-cont wow fadeInRight"> 
                     <div class="icon-cont">
                       <i class="fa fa-desktop animated pulse infinite" aria-hidden="true"></i>
                     </div>
                     <h3>Diseño Responsive</h3>
                     <hr id="divisor2" class="text-center">
-                    <p>Desarrollo de sitios web completos y dinamicos completamente responsives</p>
+                    <p>Desarrollo sitios web completos y dinámicos completamente responsives</p>
                   </div>
               </div>
            </div>
@@ -226,7 +229,7 @@
         <br>
         <div class="row hidden-xs">
           <div class="vertical-slider text-center slide">
-            <ul class="list-unstyled  wow rubberBand">
+            <ul class="list-unstyled  wow fadeInLeft">
               <li> 
                 <p>¿Listo para empezar tu siguiente proyecto?¿Te gusta lo que has visto?</p>
               </li>
@@ -248,7 +251,8 @@
         </div>
       </div>
     </section>
-<!--ESTA ES LA SECCION DEL FOOTER-->
+
+    <!--ESTA ES LA SECCION DEL FOOTER-->
     <footer>
       <div class="container">
         <div class="row">
@@ -258,6 +262,7 @@
         </div>
       </div>
     </footer>
+
 <!--**************************FIN***************************-->
 </body>
 <script type="text/javascript" src="js/jquery.min.js"></script>
@@ -267,4 +272,5 @@
 <script type="text/javascript" src="js/wow.min.js"></script>
 <script type="text/javascript" src="js/canvas.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
+<script src="js/pace.min.js"></script>
 <script>new WOW().init();</script>

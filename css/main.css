@@ -19,21 +19,16 @@
 /*****************PARTE DEL HEADER*********************/
 .scroll-nav
 {
-  background: rgb(73,147,165);
-  border-bottom: 3px solid rgb(0,0,0);
+  background:  rgb(73,147,165);
+  border-bottom: 3px solid rgba(0,0,0,0.9);
 }
 header .nav li :hover 
 {
-  background: rgb(0,0,0);
-  color: rgb(73,147,165);
+  background:rgb(0,0,0);
+  color: rgb(73,147,165) ;
   font-weight: bold; 
 }
-.active
-{
-  background: rgb(0,0,0);
-  color: rgb(73,147,165);
-  font-weight: bold; 
-}
+
 header .nav li a:after 
 {
   position: absolute;
@@ -60,7 +55,10 @@ header .nav li a:hover:after
   font-family: "Quicksand", sans-serif;
   font-size: 13px; 
 }
-
+.navbar-toggle .icon-bar 
+{
+  background: white;
+}
 #btn_menu 
 {
   background: transparent;
@@ -158,7 +156,7 @@ canvas {
 /****************************PARTE DEL ABOUT ME*********************/
 #about
 {
-  color:  white;
+  color: white;
  background: rgb(73,147,165);
   width: 100%;
   padding:40px 0px 50px 0px;
