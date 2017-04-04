@@ -2,31 +2,38 @@
 *
 {
   font-family: "Quicksand", sans-serif;
-  /*outline: 1px solid black;*/
+  /*outline: 1px solid red;*/
 }
-
+.ver
+{
+  border: none;
+  background: rgb(73,147,165);
+  padding: 5px;
+}
 #titu-home
 {
   font-size: 60px;
   font-family:  'Quando', serif;
   color: white; 
 }
-
-
 /*****************PARTE DEL HEADER*********************/
-
 .scroll-nav
 {
-  background: rgba(0,0,0,0.8);
-  border-bottom: 1px solid rgb(73,147,165);
+  background: rgb(73,147,165);
+  border-bottom: 3px solid rgb(0,0,0);
 }
 header .nav li :hover 
 {
-  background: rgb(73,147,165);
-  color: white;
+  background: rgb(0,0,0);
+  color: rgb(73,147,165);
   font-weight: bold; 
 }
-
+.active
+{
+  background: rgb(0,0,0);
+  color: rgb(73,147,165);
+  font-weight: bold; 
+}
 header .nav li a:after 
 {
   position: absolute;
@@ -59,7 +66,6 @@ header .nav li a:hover:after
   background: transparent;
   border: 1px solid white; 
 }
-
 canvas {
   position: absolute;
   top: 0;
@@ -174,11 +180,7 @@ canvas {
 }
 #foto
 {
-  filter: brightness(60%);
- /*box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.6);*/
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-   
+  filter: brightness(60%); 
 }
 .descripction
 {
@@ -186,15 +188,13 @@ canvas {
   line-height: 2.0;
 }
 
-/***********************PARTE DE PROYECTOS*****************/
+/*****************PARTE DE PROYECTOS***********/
 #project
 {
   width: 100%;
   padding:40px 0px 50px 0px;
   font-size: 18px;
   background: url("../img/tile2.png");
-  /*filter: brightness(50%);*/
-
 }
 #titu-project
 {
@@ -208,19 +208,45 @@ canvas {
     border-top: 5px solid rgb(73,147,165);
     width: 10%;
 }
-/***/
+/**************PARTE DE LAS HABILIDADES*********/
 #skill
 {
-    background: url("../img/tile2.png");
+ /* background: url("../img/tile2.png");*/
+ width: 100%;
+ /*filter: brightness(70%);*/
+  padding:40px 0px 50px 0px;
+ background: url("../img/bg/bg1.jpg");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+}
+.skill-cont
+{
+  background-color: rgba(0,0,0,0.6);
+  padding: 10px;
 }
 #titu-skill
 {
   font-size: 40px;
   font-family:  'Quando', serif;
-  color: white; 
+  color:white; 
+}
+.icon-cont i
+{
+  font-size: 70px;
+  display: block;
+  padding: 30px 0 20px 0;
+  color: rgb(73,147,165);
+  display: block;
+}
+.col-md-3 
+{
+  margin-right: -15px;
 }
 
-/***********************PARTE DE CONTACTO*****************/
+/******************PARTE DE CONTACTO*************/
 #contacto
 {
   width: 100%;
@@ -250,7 +276,7 @@ canvas {
   color: white;
   padding: 0px 20px 
 }
-.fa:hover
+.icon-container .fa:hover
 {
   color: black;
 }

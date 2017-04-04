@@ -17,8 +17,8 @@
 </head>
 <body>
 <header>
-  <nav role="navigation " class="navbar-fixed-top">
-      <div class="container-fluid " id="navi">
+  <nav role="navigation " class="navbar-fixed-top" id="navi">
+      <div class="container-fluid " >
         <div class="navbar-header ">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
             data-target="#bs-example-navbar-collapse-1" aria-expanded="false" id="btn_menu">
@@ -28,9 +28,9 @@
           </button>                       
         </div>
         <div class="navbar-collapse collapse " id="bs-example-navbar-collapse-1" aria-expanded="false">
-          <ul class="nav navbar-nav navbar-right text-center" class="navbar-fixed-top ">
+          <ul class="nav navbar-nav navbar-right text-center" class="navbar-fixed-top focus">
             <li><a id="item-about" href="#about"><strong>ACERCA DE MÍ</strong></a></li>
-            <li><a id="item-skill" href="#skill"><strong>HABILIDADES</strong></a></li>
+            <li><a id="item-skill" href="#skill" ><strong>HABILIDADES</strong></a></li>
             <li><a id="item-project" href="#project"><strong>PROYECTOS</strong></a></li>
             <li><a id="item-contact" href="#contacto"><strong>CONTÁCTAME</strong></a></li>
           </ul>
@@ -42,7 +42,7 @@
       <div class="container">
         <div class="row">
           <div class="hero-banner">
-            <canvas></canvas><a>:) </a>
+            <canvas></canvas><a></a>
             <h1 class="text-center wow fadeInRight" id="titu-home">TATIANA LIMACHE</h1>
           </div>
         </div>
@@ -65,6 +65,7 @@
     </section>    
   </div>
 </header>
+
 <!--**********************ESTA ES LA PARTE DEL ABOUT********************-->
 <section id="about" >
   <div class="container-fluid degradado">
@@ -84,17 +85,59 @@
   </div>
 </section>
 <!--ESTA ES LA SECCION SKILL-->
-    <section id="skill" >
-      <div class="container-fluid degradado2">
-        <h2 class="text-center wow fadeInRight" id="titu-skill">Habilidades</h2>
-        <hr id="divisor" class="text-center">
-        <br>
-        <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-            </div>
-        </div>
+
+    <section id="skill" class="text-center">
+        <div class="container-fluid">
+            <h2 class="text-center wow fadeInRight" id="titu-skill">Habilidades</h2>
+            <hr id="divisor" class="text-center">
+            <br>
+           <br>
+           <div class="row">
+              <div class="col-md-3 col-sm-12 col-xs-12">
+                  <div class="skill-cont "> 
+                    <div class="icon-cont">
+                      <i class="fa fa-file-code-o animated pulse infinite" aria-hidden="true"></i>
+                    </div>
+                    <h3>Plantillas</h3>
+                    <hr id="divisor2" class="text-center">
+                    <p>Desarrollo Plantillas a medida con Html5/Css3/Javascript/Jquery/Angular</p>
+                  </div>
+              </div>
+              <div class="col-md-3 col-sm-12 col-xs-12">
+                  <div class="skill-cont"> 
+                    <div class="icon-cont">
+                        <i class="fa fa-users animated pulse infinite" aria-hidden="true"></i>
+                    </div>
+                    <h3 >Trabajo en Equipo</h3>
+                    <hr id="divisor2" class="text-center">
+                    <p>Se trabajar bajo presion y me encanta hacerlo en equipo</p>
+                  </div>
+              </div>
+              <div class="col-md-3 col-sm-12 col-xs-12">
+                  <div class="skill-cont "> 
+                    <div class="icon-cont">
+                        <i class="fa fa-newspaper-o animated pulse infinite" aria-hidden="true"></i>
+                    </div>
+                    <h3>Base de Datos</h3>
+                    <hr id="divisor2" class="text-center">
+                    <p>Sistema gestor de base de datos Mysql/Sql/PostgreSql</p>
+                  </div>
+              </div>
+              <div class="col-md-3 col-sm-12 col-xs-12">
+                  <div class="skill-cont"> 
+                    <div class="icon-cont">
+                      <i class="fa fa-desktop animated pulse infinite" aria-hidden="true"></i>
+                    </div>
+                    <h3>Diseño Responsive</h3>
+                    <hr id="divisor2" class="text-center">
+                    <p>Desarrollo de sitios web completos y dinamicos completamente responsives</p>
+                  </div>
+              </div>
+           </div>
+
       </div>
-    </section>
+      </section>
+
 <!--*******************ESTA ES LA PARTE DE PROYECTS*****************-->
 <section  id="project">
   <div class="container-fluid" >
@@ -105,42 +148,45 @@
       <div class="grid">
         <div class="col-md-6 col-xs-12 col-sm-12">
           <figure class="effect-chico wow zoomInDown">
-            <img src="img/project/1.jpg" alt="img15"/>
+            <img src="img/project/danza.png" alt="img15"/>
             <figcaption>
-              <h2><span>Proyecto 1</span></h2>
-              <p>Chico's main fear was missing the morning bus.</p>
+              <h2><span>1. Escuela de Danza</span></h2>
+              <p></p>
+               <a href="https://tatilq.github.io/danza-arte/" target="_blank"></a>
             </figcaption>     
           </figure>
         </div>
         <div class="col-md-6 col-xs-12 col-sm-12">
           <figure class="effect-chico wow zoomInDown">
-            <img src="img/project/1.jpg" alt="img15"/>
+            <img src="img/project/whatsapp.png" alt="img15"/>
             <figcaption>
-              <h2><span>Proyecto 2</span></h2>
-              <p>Chico's main fear was missing the morning bus.</p>
+              <h2><span>2. Whatsapp</span></h2>
+               <p></p>
+               <a href="https://tatilq.github.io/whatsapp/index.html" target="_blank"></a>
             </figcaption>     
           </figure>
-        </div>
-        
+        </div>  
       </div>
     </div>
       <div class="row">
       <div class="grid">
         <div class="col-md-6 col-xs-12 col-sm-12">
           <figure class="effect-chico wow zoomInDown">
-            <img src="img/project/1.jpg" alt="img15"/>
+            <img src="img/project/republica.png" alt="img15"/>
             <figcaption>
-              <h2><span>Proyecto 3</span></h2>
-              <p>Chico's main fear was missing the morning bus.</p>
+              <h2><span>3. La Republica</span></h2>
+               <p></p>
+               <a href="" target="_blank"></a>
             </figcaption>     
           </figure>
         </div>
         <div class="col-md-6 col-xs-12 col-sm-12">
           <figure class="effect-chico wow zoomInDown">
-            <img src="img/project/1.jpg" alt="img15"/>
+            <img src="img/project/user.png" alt="img15"/>
             <figcaption>
-              <h2><span>Proyecto 4</span></h2>
-              <p>Chico's main fear was missing the morning bus.</p>
+              <h2><span>4. User Testing</span></h2>
+               <p></p>
+               <a href="https://tatilq.github.io/User360/index.html" target="_blank"></a>
             </figcaption>     
           </figure>
         </div>
@@ -150,19 +196,21 @@
       <div class="grid">
         <div class="col-md-6 col-xs-12 col-sm-12">
           <figure class="effect-chico wow zoomInDown">
-            <img src="img/project/1.jpg" alt="img15"/>
+            <img src="img/project/aqp.png" alt="img15"/>
             <figcaption>
-              <h2><span>Proyecto 5</span></h2>
-              <p>Chico's main fear was missing the morning bus.</p>
+              <h2><span>5. Prom Arequipa</span></h2>
+               <p></p>
+               <a href="http://www.promarequipa.gob.pe/index.php/es/home/" target="_blank"></a>
             </figcaption>     
           </figure>
         </div>
         <div class="col-md-6 col-xs-12 col-sm-12">
           <figure class="effect-chico wow zoomInDown">
-            <img src="img/project/1.jpg" alt="img15"/>
+            <img src="img/project/lyft.png" alt="img15"/>
             <figcaption>
-              <h2><span>Proyecto 6</span></h2>
-              <p>Chico's main fear was missing the morning bus.</p>
+              <h2><span>6. Lyft</span></h2>
+               <p></p>
+               <a href="https://tatilq.github.io/lyftJquery/" target="_blank"></a>
             </figcaption>     
           </figure>
         </div>
@@ -170,14 +218,13 @@
     </div>   
   </div>
 </section>
-
 <!--ESTA ES LA SECCION DEL CONTACTO-->
     <section class="contacto" id="contacto">
       <div class="container-fluid ">
         <h2 class="text-center wow fadeInRight" id="titu-contact">Contáctame</h2>
         <hr id="divisor" class="text-center">
         <br>
-        <div class="row">
+        <div class="row hidden-xs">
           <div class="vertical-slider text-center slide">
             <ul class="list-unstyled  wow rubberBand">
               <li> 
@@ -201,12 +248,11 @@
         </div>
       </div>
     </section>
-
 <!--ESTA ES LA SECCION DEL FOOTER-->
     <footer>
       <div class="container">
         <div class="row">
-          <div >
+          <div>
             <p class="text-center">© Tatiana Limache Quispe | 2017</p>
           </div>
         </div>
