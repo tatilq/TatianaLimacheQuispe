@@ -2,7 +2,6 @@
 *
 {
   font-family: "Quicksand", sans-serif;
-  /*outline: 1px solid red;*/
 }
 .ver
 {
@@ -209,11 +208,9 @@ canvas {
 /**************PARTE DE LAS HABILIDADES*********/
 #skill
 {
- /* background: url("../img/tile2.png");*/
- width: 100%;
- /*filter: brightness(70%);*/
+  width: 100%;
   padding:40px 0px 50px 0px;
- background: url("../img/bg/bg1.jpg");
+  background: url("../img/bg/bg1.jpg");
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;

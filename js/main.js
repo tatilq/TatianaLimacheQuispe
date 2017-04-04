@@ -2,12 +2,10 @@ $(document).ready(initPage);
 
 function initPage()
 {
-	//var altura = $('.navbar-fixed-top').offset().top;
 	var about = $('#about').offset().top -10;
 	var project = $('#project').offset().top -10;
 	var skill = $('#skill').offset().top -10;
 	var contacto = $('#contacto').offset().top+30;
-	
 
 	$(window).on('scroll', function(){
 		if ( $(window).scrollTop() > 50 ){
@@ -36,9 +34,10 @@ function initPage()
         title:"visitame",
         animation: true}
 	);
-
 slider();
+
 }
+
 function slider()
 {
 	jQuery(document).ready(function($) {
@@ -54,11 +53,7 @@ function slider()
 /*---------LOADING----------*/
 paceOptions = {
     startOnPageLoad : false,
-// Disable the 'elements' source
     elements: false,
-
- // Only show the progress on regular and ajax-y page navigation,
- // not every request
     restartOnRequestAfter: false
 }
 
