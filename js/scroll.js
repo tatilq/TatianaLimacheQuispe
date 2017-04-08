@@ -1,3 +1,4 @@
+/*******SCROLL CON MENU DINAMICO******/
 $('.post_article').waypoint(
 function(direction) {
 if (direction ==='down') {
