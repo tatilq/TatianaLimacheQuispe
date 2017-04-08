@@ -203,7 +203,29 @@ canvas {
   margin: 50px 0px;
   line-height: 2.0;
 }
-
+#curriculum
+{
+  margin-top: 50px;
+}
+#curriculum a
+{
+  text-decoration: none;
+  color: white;
+}
+#curriculum button
+{
+  background-color: rgb(0,0,0);
+  border: none;
+  color: white;
+}
+#curriculum button :hover
+{
+  color: rgb(73,147,165) !important;
+}
+.fa-download
+{
+  background-color: rgba(0,0,0,0.4)!important;
+}
 /*****************PARTE DE PROYECTOS***********/
 #project
 {
