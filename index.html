@@ -11,7 +11,7 @@
   <link href="css/main.css" rel="stylesheet" type="text/css"/>
   <link href="css/hover.css" rel="stylesheet" type="text/css"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
- <link href="https://fonts.googleapis.com/css?family=Alegreya|Aref+Ruqaa|Bree+Serif|Quicksand" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Alegreya|Aref+Ruqaa|Bree+Serif|Quicksand" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Gabriela" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Quando" rel="stylesheet">
   <script type="text/javascript" src="js/modernizr.custom.53451.js"></script>
@@ -31,7 +31,7 @@
           </button>                       
         </div>
         <div class="navbar-collapse collapse " id="bs-example-navbar-collapse-1" aria-expanded="false">
-          <ul class="nav navbar-nav navbar-right text-center" class="navbar-fixed-top focus">
+          <ul class="nav navbar-nav navbar-right text-center" class="navbar-fixed-top focus" id="main_nav">
             <li><a id="item-about" href="#about"><strong>ACERCA DE MÍ</strong></a></li>
             <li><a id="item-skill" href="#skill" ><strong>HABILIDADES</strong></a></li>
             <li><a id="item-project" href="#project"><strong>PROYECTOS</strong></a></li>
@@ -70,7 +70,7 @@
 </header>
 
 <!--**********************ESTA ES LA PARTE DEL ABOUT********************-->
-<section id="about" >
+<section id="about" class="post_article">
   <div class="container-fluid degradado">
     <div class="row ">
       <h2 class="text-center wow fadeInRight" id="titu-about">Sobre Mí</h2>
@@ -89,7 +89,7 @@
 </section>
 <!--ESTA ES LA SECCION SKILL-->
 
-    <section id="skill" class="text-center">
+    <section id="skill" class="text-center post_article">
         <div class="container-fluid">
             <h2 class="text-center wow fadeInRight" id="titu-skill">Habilidades</h2>
             <hr id="divisor" class="text-center  wow fadeInLeft">
@@ -142,7 +142,7 @@
       </section>
 
 <!--*******************ESTA ES LA PARTE DE PROYECTS*****************-->
-<section  id="project">
+<section  id="project" class="post_article">
   <div class="container-fluid" >
     <h2 class="text-center wow fadeInRight" id="titu-project">Mis Proyectos</h2>
     <hr id="divisor2" class="text-center">
@@ -222,7 +222,7 @@
   </div>
 </section>
 <!--ESTA ES LA SECCION DEL CONTACTO-->
-    <section class="contacto" id="contacto">
+    <section class="contacto post_article" id="contacto" >
       <div class="container-fluid ">
         <h2 class="text-center wow fadeInRight" id="titu-contact">Contáctame</h2>
         <hr id="divisor" class="text-center">
@@ -265,12 +265,14 @@
 
 <!--**************************FIN***************************-->
 </body>
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/jquery.smooth-scroll.min.js"></script>
+<script src="js/waypoints.min.js"></script><script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="unslider/js/unslider-min.js"></script>
 <script src="https://use.fontawesome.com/a81d940a5c.js"></script>
 <script type="text/javascript" src="js/wow.min.js"></script>
 <script type="text/javascript" src="js/canvas.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
+<script src="js/scroll.js"></script>
 <script src="js/pace.min.js"></script>
 <script>new WOW().init();</script>
